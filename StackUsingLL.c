@@ -19,7 +19,7 @@ void pop(){
         printf("stack underflow\n");
     } else {
         struct Node *temp = top;
-        printf("Element poped is %d", top->data);
+        printf("Element popped is %d", top->data);
         top = top->next;
         free(temp);
     }
